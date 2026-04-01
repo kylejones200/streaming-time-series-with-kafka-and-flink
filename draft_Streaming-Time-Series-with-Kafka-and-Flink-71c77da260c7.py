@@ -10,7 +10,7 @@ import json
 import random
 import time
 
-bin/kafka-topics.sh --create --topic temperature-sensor --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+# bin/kafka-topics.sh --create --topic temperature-sensor --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
 
 
 producer = KafkaProducer(bootstrap_servers='localhost:9092',
