@@ -10,21 +10,21 @@ Apache Kafka is a distributed event-streaming platform designed for high-through
 Apache Flink is a powerful stream-processing framework that provides low-latency and high-throughput data analysis capabilities. Its event-driven architecture and time-based processing features make it ideal for time series applications.
 
 ### Key Features of Kafka for Streaming Time Series:
-- **Scalability**: Kafka handles high-throughput data streams efficiently.
-- **Durability**: Data is stored persistently, ensuring fault tolerance.
-- **Flexibility**: Supports multiple producers and consumers.
+- Scalability: Kafka handles high-throughput data streams efficiently.
+- Durability: Data is stored persistently, ensuring fault tolerance.
+- Flexibility: Supports multiple producers and consumers.
 
 ### Key Features of Flink for Streaming Time Series:
-- **Event Time Processing**: Handles late-arriving data using watermarks.
-- **State Management**: Tracks and updates the state of streams in real time.
-- **Fault Tolerance**: Recovers from failures with exactly-once semantics.
+- Event Time Processing: Handles late-arriving data using watermarks.
+- State Management: Tracks and updates the state of streams in real time.
+- Fault Tolerance: Recovers from failures with exactly-once semantics.
 
 ### Setting Up Kafka and Flink
 Before diving into the implementation, ensure Kafka and Flink are installed and running on your system.
 
 ### Prerequisites:
-1.  [**Kafka**: Download and install Kafka from [Apache Kafka](https://kafka.apache.org/downloads). Start the Kafka broker and Zookeeper.]
-2.  [**Flink**: Download and install Flink from [Apache Flink](https://flink.apache.org/downloads.html). Start the Flink job manager and task manager.]
+1.  [Kafka: Download and install Kafka from [Apache Kafka](https://kafka.apache.org/downloads). Start the Kafka broker and Zookeeper.]
+2.  [Flink: Download and install Flink from [Apache Flink](https://flink.apache.org/downloads.html). Start the Flink job manager and task manager.]
 
 ### Building a Streaming Pipeline
 In this section, we build a pipeline to process temperature sensor data in real time. The data includes sensor ID, timestamp, and temperature reading. The goal is to calculate rolling averages and detect anomalies.
