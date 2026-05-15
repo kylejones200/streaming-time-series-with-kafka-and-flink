@@ -1,3 +1,7 @@
+---
+canonical_link: "https://medium.com/p/71c77da260c7"
+---
+
 # Streaming Time Series with Kafka and Flink Streaming time series data processing has become increasingly crucial in
 industries like finance, energy, e-commerce, and IoT. Apache Kafka...
 
@@ -60,4 +64,4 @@ Below is a Python Flink job using PyFlink:
 You can monitor the Flink job using the Flink Web Dashboard and check the Kafka topic `temperature-averages` for results.
 
 ### Conclusion
-By combining Kafka and Flink, you can create scalable, fault-tolerant pipelines for real-time time series data processing. This chapter demonstrated a simple example of processing temperature sensor data, but the same principles can be extended to more complex applications, such as predictive maintenance, anomaly detection, and real-time analytics. [View original.](https://medium.com/p/71c77da260c7)
+By combining Kafka and Flink, you can create scalable, fault-tolerant pipelines for real-time time series data processing. This chapter demonstrated a simple example of processing temperature sensor data, but the same principles can be extended to more complex applications, such as predictive maintenance, anomaly detection, and real-time analytics.
