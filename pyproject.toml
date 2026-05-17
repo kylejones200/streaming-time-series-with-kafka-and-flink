@@ -1,0 +1,20 @@
+[project]
+name = "streaming-time-series-with-kafka-and-flink"
+version = "0.1.0"
+description = "Companion code for Medium article: streaming time series with kafka and flink"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-flink>=1.19.0",
+    "kafka-python>=2.0.2",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
