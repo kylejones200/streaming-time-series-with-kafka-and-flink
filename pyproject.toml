@@ -5,6 +5,8 @@ description = "Companion code for Medium article: streaming time series with kaf
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "pydantic>=2.10.0",
+    "pytest>=8.0",
     "apache-flink>=1.19.0",
     "kafka-python>=2.0.2",
 ]
@@ -18,3 +20,7 @@ line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
