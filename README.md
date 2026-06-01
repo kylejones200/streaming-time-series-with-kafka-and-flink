@@ -11,14 +11,7 @@ Apache Kafka is a distributed event-streaming platform designed for high-through
 
 Apache Flink is a powerful stream-processing framework that provides low-latency and high-throughput data analysis capabilities. Its event-driven architecture and time-based processing features make it ideal for time series applications.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
